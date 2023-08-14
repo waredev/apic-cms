@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rups",
+  "info": {
+    "singularName": "rups-single",
+    "pluralName": "rups",
+    "displayName": "RUPS",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "easy_ksei": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list"
+    },
+    "rups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list"
+    },
+    "blanko_rups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list"
+    }
+  }
+}
