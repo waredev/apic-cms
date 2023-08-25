@@ -4,23 +4,28 @@
   "info": {
     "singularName": "pedoman-kerja-komisaris-dan-direksi",
     "pluralName": "pedoman-kerja-komisaris-dan-direksis",
-    "displayName": "PEDOMAN KERJA KOMISARIS DAN DIREKSI"
+    "displayName": "PEDOMAN KERJA KOMISARIS DAN DIREKSI",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "label": {
+    "label_id": {
       "type": "string",
       "required": true
     },
     "file": {
-      "allowedTypes": [
-        "files"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "label_en": {
+      "type": "string",
       "required": true
     }
   }

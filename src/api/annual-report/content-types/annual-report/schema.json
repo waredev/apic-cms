@@ -10,11 +10,7 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "file": {
       "type": "media",
@@ -23,18 +19,14 @@
       "allowedTypes": [
         "files"
       ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
-    "label": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "label_id": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "label_en": {
       "type": "string",
       "required": true
     }

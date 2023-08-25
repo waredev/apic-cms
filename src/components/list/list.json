@@ -7,8 +7,9 @@
   },
   "options": {},
   "attributes": {
-    "label": {
-      "type": "string"
+    "label_id": {
+      "type": "string",
+      "required": true
     },
     "file": {
       "type": "media",
@@ -20,6 +21,10 @@
     },
     "link": {
       "type": "string"
+    },
+    "label_en": {
+      "type": "string",
+      "required": true
     }
   }
 }

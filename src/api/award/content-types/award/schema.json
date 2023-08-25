@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "label": {
+    "label_id": {
       "type": "string",
       "required": true
     },
@@ -23,6 +23,10 @@
       "allowedTypes": [
         "files"
       ]
+    },
+    "label_en": {
+      "type": "string",
+      "required": true
     }
   }
 }
