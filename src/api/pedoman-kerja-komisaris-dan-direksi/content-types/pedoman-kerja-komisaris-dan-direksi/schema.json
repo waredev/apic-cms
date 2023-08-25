@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedoman_kerja_komisaris_dan_direksis",
+  "info": {
+    "singularName": "pedoman-kerja-komisaris-dan-direksi",
+    "pluralName": "pedoman-kerja-komisaris-dan-direksis",
+    "displayName": "PEDOMAN KERJA KOMISARIS DAN DIREKSI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

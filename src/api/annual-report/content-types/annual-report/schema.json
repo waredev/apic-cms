@@ -4,7 +4,7 @@
   "info": {
     "singularName": "annual-report",
     "pluralName": "annual-reports",
-    "displayName": "Annual Report",
+    "displayName": "ANNUAL REPORT",
     "description": ""
   },
   "options": {
@@ -16,18 +16,10 @@
     }
   },
   "attributes": {
-    "label": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "file": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "files"
       ],
@@ -36,6 +28,15 @@
           "localized": true
         }
       }
+    },
+    "label": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }

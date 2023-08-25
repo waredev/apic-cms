@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "kode_etiks",
+  "info": {
+    "singularName": "kode-etik",
+    "pluralName": "kode-etiks",
+    "displayName": "KODE ETIK"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

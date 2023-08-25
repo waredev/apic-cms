@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laporan_keuangan_tengah_tahunans",
+  "info": {
+    "singularName": "laporan-keuangan-tengah-tahunan",
+    "pluralName": "laporan-keuangan-tengah-tahunans",
+    "displayName": "LAPORAN KEUANGAN TENGAH TAHUNAN",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}

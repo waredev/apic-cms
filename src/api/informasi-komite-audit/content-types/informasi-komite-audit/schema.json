@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "informasi_komite_audits",
+  "info": {
+    "singularName": "informasi-komite-audit",
+    "pluralName": "informasi-komite-audits",
+    "displayName": "INFORMASI KOMITE AUDIT",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

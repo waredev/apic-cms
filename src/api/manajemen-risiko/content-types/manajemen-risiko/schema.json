@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "manajemen_risikos",
+  "info": {
+    "singularName": "manajemen-risiko",
+    "pluralName": "manajemen-risikos",
+    "displayName": "MANAJEMEN RISIKO"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
